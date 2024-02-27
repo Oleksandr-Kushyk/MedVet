@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1120px;
+}
+
+/* хедер */
+.header {
+    background: #ddf9ff;
+    padding: 34px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-img {
+    width: 210px;
+
+}
+
+.header-list {
+    display: flex;
+    gap: 64px;
+}
+
+.header-link {
+    font-weight: 700;
+    color: #3a2e2e;
+}
+
+/* головна секція */
+.hero-container {
+    display: flex;
+    gap: 57px;
+    background: #ddf9ff;
+}
+
+.span {
+    font-weight: 600;
+    color: #6278b4;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 103%;
+    color: #3a2e2e;
+    padding: 16px 0;
+}
+
+.hero-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 153%;
+    color: #3a2e2e;
+    padding-bottom: 32px;
+}
+
+.hero-button {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 153%;
+    color: #fff;
+    background-color: #6278b4;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+/* друга секція */
+
+.services{
+    background: #fbfcff;
+    padding-top: 24px;
+    padding-bottom: 52px;
+}
+.services-title{
+    font-weight: 600;
+    font-size: 48px;
+    color: #3a2e2e;
+    text-align: center;
+}
+.services-list{
+    display: flex;
+flex-wrap: wrap;
+gap: 94px;
+}
+.services-item{
+    display: flex;
+    /* flex-direction: column; */
+}
+.services-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 153%;
+color: #3a2e2e;
+}
+.services-img{
+    width: 49px;
+    height: 49px;
+    margin-right: 12px;
+}
+.services-caption{
+    font-weight: 400;
+    font-size: 24px;
+    line-height:153% ;
+    color: 3a2e2e ;
+}
+.services-caption span{
+    font-weight: 500;
+
+}
