@@ -55,10 +55,13 @@ ul {
 }
 
 /* головна секція */
+.hero {
+    background: #ddf9ff;
+}
+
 .hero-container {
     display: flex;
     gap: 57px;
-    background: #ddf9ff;
 }
 
 .span {
@@ -90,47 +93,94 @@ ul {
     background-color: #6278b4;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 15px 22px;
 }
+
 /* друга секція */
 
-.services{
+.services {
     background: #fbfcff;
     padding-top: 24px;
-    padding-bottom: 52px;
 }
-.services-title{
+
+.services-title {
     font-weight: 600;
     font-size: 48px;
     color: #3a2e2e;
     text-align: center;
+    border-bottom: 4px solid #6278b4;
+    width: 351px;
+    margin: 0 auto 50px;
+    padding-bottom: 18px;
 }
-.services-list{
+
+.services-list {
     display: flex;
-flex-wrap: wrap;
-gap: 94px;
+    gap: 85px;
+    padding-bottom: 57px;
 }
-.services-item{
+
+.services-item {
     display: flex;
-    /* flex-direction: column; */
+    flex: 1;
+
 }
-.services-text{
+
+.services-text {
     font-weight: 400;
-font-size: 14px;
-line-height: 153%;
-color: #3a2e2e;
+    font-size: 14px;
+    line-height: 153%;
+    color: #3a2e2e;
 }
-.services-img{
+
+.services-img {
     width: 49px;
     height: 49px;
     margin-right: 12px;
 }
-.services-caption{
-    font-weight: 400;
-    font-size: 24px;
-    line-height:153% ;
-    color: 3a2e2e ;
-}
-.services-caption span{
-    font-weight: 500;
 
+.services-caption {
+    font-weight: 400;
+    line-height: 153%;
+    color: #3a2e2e;
+    padding-bottom: 25px;
+}
+
+/* footer */
+.footer {
+    background: #535353;
+    padding-top: 32px;
+    padding-bottom: 90px;
+}
+
+.footer-wrap {
+    border-bottom: 2px solid #6278b4;
+    width: 1120px;
+}
+
+.footer-title {
+    padding-top: 32px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 32px;
+    text-transform: uppercase;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+display: flex;
+align-items: center;
+}
+.footer-img{
+    padding-right: 22px;
+}
+.footer-link{
+    font-weight: 400;
+font-size: 20px;
+color: #fff;
+}
+.footer-logo-img{
+    padding-bottom: 30px;
 }
